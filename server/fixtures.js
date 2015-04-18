@@ -61,5 +61,79 @@ if(Animals.find().count()===0){
 		offered_by: 1,
 		created_at: now - 2.2*day
 	});
+	var animal5 = Animals.insert({
+		name:"Her Highness",
+		type:"cat",
+		sex:"female",
+		age:"1-3 years",
+		size:"",
+		breed:"Siamese",
+		color:"gold and brown",
+		personality:"shy",
+		health_issues:"no",
+		comments:"Dogs have owners.  Cats have help.  Especially Her Highness",
+		img_path:"https://knv09.files.wordpress.com/2011/11/dsc_0139.jpg",
+		offered_by: 1,
+		created_at: now - 2.5*day
+	});	
+	var animal6 = Animals.insert({
+		name:"Rufus",
+		type:"dog",
+		sex:"male",
+		age:"6-10 years",
+		size:"very large (>70 lbs.)",
+		breed:"German Shepherd",
+		color:"brown and black",
+		personality:"shy",
+		health_issues:"no",
+		comments:"",
+		img_path:"https://www.petfinder.com/wp-content/uploads/2012/11/147083304-dogs-home-alone-all-day-632x475.jpg",
+		offered_by: 1,
+		created_at: now - 1*day
+	});
+	var animal7 = Animals.insert({
+		name:"Bowser",
+		type:"dog",
+		sex:"male",
+		age:"> 10 years",
+		size:"6-10 years",
+		breed:"lab something or other",
+		color:"cream",
+		personality:"friendly/outgoing",
+		health_issues:"yes",
+		comments:"arthritis",
+		img_path:"http://www.wallpapermania.eu/images/data/2012-06/2997_Brown-labrador-dog-let-me-eat.jpg",
+		offered_by: 1,
+		created_at: now - 1*day
+	});
+	var animal8 = Animals.insert({
+		name:"Medusa",
+		type:"dog",
+		sex:"female",
+		age:"< 6 months",
+		size:"very small (<10 lbs.)",
+		breed:"uncertain",
+		color:"brown",
+		personality:"sometimes friendly, sometimes shy",
+		health_issues:"no",
+		comments:"",
+		img_path:"http://media.masslive.com/talk_impact/photo/ugly-dogjpg-4a94782fd09dd3df.jpg",
+		offered_by: 1,
+		created_at: now - 3.2*day
+	});
+	var animal9 = Animals.insert({
+		name:"Killer",
+		type:"dog",
+		sex:"male",
+		age:"6-10 years",
+		size:"very small (<10 lbs.)",
+		breed:"chihuahua",
+		color:"cream",
+		personality:"sometimes friendly, sometimes shy",
+		health_issues:"no",
+		comments:"",
+		img_path:"http://cdn26.us2.fansshare.com/photo/chihuahua/chihuahua-1389915891.jpg",
+		offered_by: 1,
+		created_at: now - 4*day
+	});
 }
-
