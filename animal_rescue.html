@@ -1,0 +1,50 @@
+<head>
+  <title>animal_rescue</title>
+</head>
+
+<body>
+  {{> layout}}
+</body>
+
+<template name="layout">
+	<div class="container">
+		{{> header}}
+		<div id="content" class="main">
+			the main section of the page will go here
+			<!-- {{> yield}} -->
+		</div>
+		{{> footer}}
+	</div>
+</template>
+
+<template name="header">
+	<div class="navbar navbar-default" role="navigation">
+	    <div class="navbar-header">
+	        <a class="navbar-brand" href="#">animal rescue</a>
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	        </button>
+	    </div>
+	    <div class="navbar-collapse collapse">
+	        <ul class="nav navbar-nav">
+	            <li class="active"><a href="#">Got links?</a></li>
+	        </ul>
+	        <ul class="nav navbar-nav">
+	            <li><a href="#">or other stuff?</a></li>
+	        </ul>
+	        <ul class="nav navbar-nav navbar-right">
+	            {{> loginButtons}} <!-- here -->
+	        </ul>
+	    </div>
+	</div>
+</template>
+
+<template name="main">
+</template>
+
+<template name="footer">
+	Hey, what footer text do we want to put in?
+</template>
