@@ -35,7 +35,7 @@ if(Animals.find().count()===0){
 		name:"Scourge of Mice",
 		type:"cat",
 		sex:"male",
-		age:"6 months-1 year",
+		age:"6 months - 1 year",
 		size:"",
 		breed:"alley cat",
 		color:"black",
