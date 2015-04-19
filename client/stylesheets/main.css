@@ -1,3 +1,7 @@
+*{
+	font-size: 24px;
+}
+
 header 	ul {
     list-style-type: none;
 }
@@ -9,6 +13,11 @@ body {
 	color: #666666;
 }
 .navbar { margin-bottom: 10px }
+
+.navbar-brand {
+  font-size: 28px;
+}
+
 .navbar .navbar-inner {
 	border-radius: 0px 0px 3px 3px;
 }
@@ -36,6 +45,16 @@ body {
 
 .radio{
 	padding-top:8px;
+}
+
+input[type='radio'], input[type='checkbox'] {
+    transform: scale(2);
+    margin-right: 12px;
+}
+
+.radio_spacing{
+	padding-top:8px;
+	margin-right:40px;
 }
 /*.form-inline select, input{
 	
