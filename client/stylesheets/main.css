@@ -45,3 +45,17 @@ body {
 	width: 100%;
 }
 */
+
+.animal_profile {
+	background: #fff;
+	border-radius: 3px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.big-pic img{
+	max-width: 400px;
+	max-height: 100%;
+	padding: 10px;
+}
+

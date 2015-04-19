@@ -74,15 +74,15 @@
 			<div class="col-xs-6">
 				<div class="small-pic">
 					{{#if img_path}}
-						<img src="{{img_path}}" alt="animal image">
+						<a href="/animal/{{_id}}"><img src="{{img_path}}" alt="animal image"></a>
 					{{else}}	
-						<img src="/paw.png" alt="animal paw">
+						<a href="/animal/{{_id}}"><img src="/paw.png" alt="animal paw"></a>
 					{{/if}}		
 				</div>
 			</div>
 
 			<div class="col-xs-6">
-					<p>Name: {{name}}</p>
+					<p>Name: <a href="/animal/{{_id}}">{{name}}</a></p>
 					<p>Age: {{age}}</p>
 					<p>Sex: {{sex}}</p>
 					<p>Personality: {{personality}}</p>
@@ -90,4 +90,3 @@
 		</p>
 	</div>
 </template>	
-

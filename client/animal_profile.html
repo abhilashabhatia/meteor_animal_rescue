@@ -1,0 +1,42 @@
+<!--Animal Profile - shows image and full description -->
+
+<!-- template to display full animal profile -->
+<template name="animal_profile">
+
+	<!-- bootstrap to display image & description -->
+	<div class="row">
+		<p>
+			<div class="col-xs-6">
+				<div class="big-pic">
+					{{#if img_path}}
+
+						<!-- display actual animal image if available -->
+						<img src="{{img_path}}" alt="animal image">
+
+					{{else}}
+
+						<!-- display default paw image -->
+						<img src="/paw.png" alt="animal paw">
+					{{/if}}	
+				</div>	
+			</div>
+
+			<!-- display full animal profile -->
+			<div class="col-xs-6">
+					<p>Name: {{name}}</p>
+					<p>Type: {{type}}</p>
+					<p>Sex: {{sex}}</p>
+					<p>Age: {{age}}</p>
+					{{#if size}}
+						<p>Size: {{size}}</p>
+					{{/if}}
+					<p>Breed: {{breed}}</p>
+					<p>Color: {{color}}</p>
+					<p>Personality {{personality}}</p>
+					<p>Has special needs: {{health_issues}}</p>
+					<p>Comments: {{comments}}</p>
+					<p>Contact: {{offered_by}}</p>
+			</div>
+		</p>
+	</div>
+</template>	
